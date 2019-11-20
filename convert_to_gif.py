@@ -4,9 +4,9 @@ from moviepy.editor import VideoFileClip
 
 def main():
 	#initial data
-	file_name = "test_pixelart"
-	file_format = "mp4"
-	new_file_appendix = "_gif"
+	file_name = "output"
+	file_format = "avi"
+	new_file_appendix = ""
 	src = file_name + "." + file_format
 	fps = "default"
 	#open the video
